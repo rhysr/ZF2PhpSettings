@@ -1,0 +1,17 @@
+{
+    "name": "rhysr/ZF2PhpSettings",
+    "description": "Configure PHP ini settings via configuration",
+    "keywords": ["ini", "zf2"],
+    "homepage": "https://github.com/rhysr/ZF2PhpSettings",
+    "type": "module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rhys Roberts",
+            "email": "rhysr@mega-city-one.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
