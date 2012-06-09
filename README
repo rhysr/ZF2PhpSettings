@@ -3,3 +3,5 @@ Copy config/module.zf2_php_settings.local.php.dist to ./configs/autoload without
 Populate it with php.ini options and values http://uk.php.net/manual/en/ini.list.php
 
 Some options are not configurable at runtime
+
+Also you'll need to add "ZF2PhpSettings" to your application.config.php
