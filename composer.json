@@ -3,7 +3,7 @@
     "description": "Configure PHP ini settings via configuration",
     "keywords": ["ini", "zf2"],
     "homepage": "https://github.com/rhysr/ZF2PhpSettings",
-    "type": "module",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
