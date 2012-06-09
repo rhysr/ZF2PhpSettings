@@ -1,0 +1,14 @@
+<?php
+/**
+ * Copy this file into your configs/autoload/ directory without the .dist extension
+ *
+ * each key under "phpSettings" should be a value php ini option
+ * http://uk.php.net/manual/en/ini.list.php
+ * Be aware that not all ini options can be set at runtime so will need configuring in the php.ini or vhost
+ */
+return array(
+    'phpSettings' => array(
+        'display_errors'  => 1,
+        'html_errors'     => 1,
+    )
+);
