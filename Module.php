@@ -13,7 +13,7 @@ class Module
 
     public function onBootstrap(Event $e)
     {
-        $config = $e->getParam('application')->getConfiguration();
+        $config = $e->getParam('application')->getConfig();
         if (!isset($config['phpSettings'])) {
             return;
         }
