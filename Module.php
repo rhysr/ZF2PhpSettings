@@ -21,7 +21,8 @@ class Module
         $phpSettings = $config['phpSettings'];
         foreach ($phpSettings as $setting => $value) {
 
-            if (false === ini_set($setting, $value)) {
+            $oldValue = ini_get($setting);
+            if ($oldValue !== ini_set($setting, $value)) {
                 throw new \RuntimeException('Cannot set ini \'' . $setting . '\' to \'' . $value);
             }
         }
